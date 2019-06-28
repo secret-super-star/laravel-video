@@ -1,0 +1,680 @@
+/*Custom Classses*/
+
+/*index.blade.php*/
+h3 {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 14px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+@media (min-width: 768px) {
+    .ipad {
+        display: block;
+    }
+    .nonipad {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .ipad {
+        display: none;
+    }
+    .nonipad {
+        display: block;
+    }
+}
+
+/*relatedVideo.blade.php*/
+.ts-thumbnail-view article .image-holder {
+    padding-top: 11px;
+}
+
+/*categories and tags.blade.php*/
+.col-sm-3.catThum.center img {
+    height: 126px;
+}
+
+h2 {
+    font-size: 14px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+/*categories video.blade.php*/
+h3 {
+    font-size: 16px;
+}
+
+.catVideoPanel {
+    margin-left: -15px;
+    margin-bottom: 1px;
+    margin-top: 14px;
+    padding-bottom: 1px;
+}
+
+/*privacy.blade.php*/
+.catTab {
+    padding: 8px 41px 8px 38px;
+    background: #333;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.privacy1 {
+    margin-left: -15px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    margin-top: 14px;
+    color: white
+}
+
+
+/*terms.blade.php*/
+
+.catTab {
+    padding: 8px 41px 8px 38px;
+    background: #333;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+}
+
+/*watch*/
+
+h3 {
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    .ipad {
+        display: block;
+    }
+    .nonipad {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .ipad {
+        display: none;
+    }
+    .nonipad {
+        display: block;
+    }
+}
+
+/*sub category views*/
+
+.catTab {
+    padding: 8px 41px 8px 38px;
+    background: #333;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+}
+
+/*App.blade.php*/
+.thumbnail {
+    background: #444444;
+    border: none;
+}
+
+.thumbnail .caption h3 {
+    color: white;
+}
+
+.embed-responsive {
+    border-radius: 4%;
+}
+
+.col-sm-12 {
+    padding: 0px 0px 0px 0px;
+}
+.col-md-4 {
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 25px !important;
+    height: 232px;
+}
+
+.padings {
+    background-color: #444444;
+    border: none;
+    padding: 11px 4px 4px 4px;
+}
+
+.badge {
+    padding: 5px 10px;
+    background: #2e2e2e;
+    margin-top: 4px;
+}
+
+.catThum {
+    padding: 10px;
+}
+
+.catThum img {
+    border-radius: 5%;
+}
+
+.catThum p {
+    text-align: center;
+}
+
+.thumbnail .caption {
+    margin-top: 10px !important;
+    padding: 0px !important;
+}
+
+.navbar-default .navbar-nav > li.dropdown:hover > a,
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: rgb(231, 231, 231);
+    color: rgb(85, 85, 85);
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.ui-state-active,.ui-widget-content,.ui-state-active:hover {
+    color: black !important;
+}
+
+.ui-menu,.ui-widget,.ui-widget-content,.ui-autocomplete,.ui-front {
+    width: 240px !important;
+    height: 400px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+@media (min-width: 768px) {
+    #project {
+        width: 250px !important;
+    }
+}
+
+
+/*series video*/
+
+h3 {
+    font-size: 16px;
+}
+
+
+.sv1 {
+    margin-right: -15px;
+    margin-top: 15px
+}
+
+.col-sm-4 {
+    padding: 0px 0px 0px 0px;
+}
+
+.row1 {
+    margin-right: 0px !important;
+    margin-left: 0px !important;;
+}
+
+.row2 {
+    margin-left: 16px !important;
+}
+
+.col-sm-9 {
+    padding-right: 0px !important;
+}
+
+
+/*dashboard*/
+
+
+.profile {
+    width: 100%;
+    position: relative;
+    background: #444;
+    /*border: 1px solid #D5D5D5;*/
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.profile .image {
+    display: block;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+
+.profile .user {
+    position: relative;
+    padding: 0px 5px 5px;
+}
+
+.profile .user .avatar {
+    position: absolute;
+    left: 20px;
+    top: -70px;
+    z-index: 2;
+}
+
+.f20 {
+    font-size: 20px;
+}
+
+.profile .user h2 {
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
+    float: left;
+    margin: 10px 0px 0px 135px;
+    font-weight: bold;
+}
+
+.profile .user .actions {
+    float: right;
+}
+
+.profile .user .actions .btn {
+    margin-bottom: 0px;
+}
+
+.profile .info {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 35px;
+}
+
+.img-profile{
+    height:122px;
+    width:122px;
+}
+
+.img-cover{
+    width:100%;
+    height:300px;
+}
+
+.img-cover-celeb{
+    width:100%;
+    height:180px;
+}
+
+.edtBtn {
+    position: absolute;
+    top: 263px;
+    right: 6px;
+    /*width: 88px;*/
+}
+
+.edtAvatar {
+    margin-top: 60px;
+    margin-left: 17px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.pushRight {
+    float: right;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt60 {
+    margin-top: 60px;
+}
+
+.hide {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .btn-responsive {
+        padding:2px 4px;
+        font-size:80%;
+        line-height: 1;
+        border-radius:3px;
+    }
+
+    .panelForDetail {
+        width: 100%;
+    }
+
+    .row2 {
+        margin-left: 0px !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .btn-responsive {
+        padding:4px 9px;
+        font-size:90%;
+        line-height: 1.2;
+    }
+}
+
+/*Logo*/
+.logoSize {
+    width: 162px; height: 40px
+}
+
+.likeButton {
+    float: left;
+    width: 18%
+}
+
+.mr0pr0 {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.ml0pl0 {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.h100p {
+    height: 100%;
+}
+
+.adHandle {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.colorDarkGray {
+    color: darkgray !important;
+}
+
+/**
+** Card CSS
+**/
+
+
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    background-color: rgba(214, 224, 226, 0.2);
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card .card-heading {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.card .card-heading.simple {
+    font-size: 20px;
+    font-weight: 300;
+    color: #777;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.card .card-heading.image img {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    margin-right: 15px;
+    vertical-align: top;
+    border: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.card .card-heading.image .card-heading-header {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card .card-heading.image .card-heading-header h3 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.card .card-heading.image .card-heading-header span {
+    font-size: 12px;
+    color: #999999;
+}
+
+.card .card-body {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.card .card-media {
+    padding: 0 20px;
+    margin: 0 -14px;
+}
+
+.card .card-media img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card .card-actions {
+    min-height: 30px;
+    padding: 0 20px 20px 20px;
+    margin: 20px 0 0 0;
+}
+
+.card .card-comments {
+    padding: 20px;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+.card .card-comments .comments-collapse-toggle {
+    padding: 0;
+    margin: 0 20px 12px 20px;
+}
+
+.card .card-comments .comments-collapse-toggle a,
+.card .card-comments .comments-collapse-toggle span {
+    padding-right: 5px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #999;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-comments .media-heading {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card.people {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    height: 300px;
+    padding-top: 0;
+    margin-left: 20px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.card.people:first-child {
+    margin-left: 0;
+}
+
+.card.people .card-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 170px;
+    height: 150px;
+    background-color: #ffffff;
+}
+
+.card.people .card-top.green {
+    background-color: #53a93f;
+}
+
+.card.people .card-top.blue {
+    background-color: #427fed;
+}
+
+.card.people .card-info {
+    position: absolute;
+    top: 150px;
+    display: inline-block;
+    width: 100%;
+    height: 101px;
+    overflow: hidden;
+    background: #ffffff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.people .card-info .title {
+    display: block;
+    margin: 8px 14px 0 14px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #404040;
+}
+
+.card.people .card-info .desc {
+    display: block;
+    margin: 8px 14px 0 14px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 16px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.people .card-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    line-height: 29px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(214, 224, 226, 0.2);
+    height: 187px;
+}
+
+.card.hovercard .cardheader {
+    background-size: cover;
+    height: 83px;
+}
+
+.banner {
+    background: url("http://lorempixel.com/850/280/nature/4/");
+    background-position: center center !important;
+    background-size: cover !important;
+}
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.5);
+}
+
+.card.hovercard .info {
+    padding: 4px 8px 10px;
+}
+
+.card.hovercard .info .title {
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 1;
+    color: #262626;
+    vertical-align: middle;
+    cursor: pointer !important;
+}
+
+.card.hovercard .info .desc {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+
+.font18 {
+    font-size: 18px
+}
+
+.pl3pr3{
+    padding-left: 3px;
+    padding-right: 3px
+}
+
+.biggerBadgeParent {
+    border-radius: 3px;
+    margin-left: -11px;
+    padding: 5px
+}
+
+.biggerBadge {
+    background-color: #444444 !important;
+    padding: 14px 20px !important;
+    color: red;
+}
+
+.fn14 {
+    font-size: 14px !important;
+}
+/*.btn{ border-radius: 50%; width:32px; height:32px; line-height:18px;  }*/

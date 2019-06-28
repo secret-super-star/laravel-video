@@ -1,0 +1,8 @@
+# 2 space indentation
+[*.php]
+indent_style = space
+indent_size = 2
+
+[*.blade.php]
+indent_style = space
+indent_size = 2

@@ -1,0 +1,86 @@
+{
+    "name": "PakOne",
+    "description": "Video Sharing Application",
+    "type": "project",
+    "keywords": ["php", "framework", "laravel", "laravel5", "admin", "theme", "bootstrap"],
+    "homepage": "http://ahsanhussain.info",
+    "license": "AhsanHussain",
+    "authors": [
+        {
+            "name": "Ahsan Hussain",
+            "email": "admin@ahsanhussain.info",
+            "homepage": "http://ahsanhussain.info"
+        }
+    ],
+    "support": {
+        "email": "admin@ahsanhussain.info",
+        "issues": "https://gitlab.com/ahsanmster/PakOneMedia",
+        "wiki": "https://gitlab.com/ahsanmster/PakOneMedia",
+        "source": "https://gitlab.com/ahsanmster/PakOneMedia",
+        "docs": "https://gitlab.com/ahsanmster/PakOneMedia"
+    },
+    "require": {
+        "php": ">=5.6.4",
+        "arcanedev/log-viewer": "~4.0",
+        "arcanedev/no-captcha": "~3.0",
+        "creativeorange/gravatar": "~1.0",
+        "davejamesmiller/laravel-breadcrumbs": "^3.0",
+        "intervention/image": "^2.4",
+        "intervention/imagecache": "^2.3",
+        "kyslik/column-sortable": "^5.4",
+        "laravel/framework": "5.4.*",
+        "laravel/passport": "^3.0",
+        "laravel/socialite": "^3.0",
+        "laravel/tinker": "~1.0",
+        "laravelcollective/html": "5.4.*",
+        "laravelcollective/remote": "*",
+        "roumen/sitemap": "^2.6"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~5.7",
+        "barryvdh/laravel-debugbar": "^2.1",
+        "barryvdh/laravel-ide-helper": "^2.2",
+        "doctrine/dbal": "^2.5"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+			"radzserg\\BoxContent\\" : "app/box-client/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ],
+        "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall",
+            "php artisan optimize"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php artisan optimize"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "prefer-stable": true
+}
